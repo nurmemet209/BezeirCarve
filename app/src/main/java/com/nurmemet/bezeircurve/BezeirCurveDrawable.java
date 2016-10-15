@@ -19,7 +19,6 @@ public class BezeirCurveDrawable extends Drawable {
 
     private Paint mPaint;
     private int mColor = Color.RED;
-    private PointF p1 = new PointF(), p2 = new PointF(), p3 = new PointF(), p4 = new PointF();
     private Path mPath;
     private RectF mBounds;
     private float mWidth = 500;
