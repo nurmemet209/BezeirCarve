@@ -12,6 +12,12 @@
     tools:context="com.nurmemet.bezeircurve.MainActivity"
     android:orientation="vertical"
     >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="toAnim"
+        android:onClick="toAnim"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,4 +42,6 @@
         android:id="@+id/cubic_beizers"
         android:layout_width="match_parent"
         android:layout_height="1000px"/>
+
+
 </LinearLayout>
